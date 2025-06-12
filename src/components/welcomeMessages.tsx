@@ -15,7 +15,7 @@ export default function WelcomeMessages() {
     }, [])
 
     return (
-        <div className="w-1/2 hidden md:flex items-center justify-center bg-pink-400">
+        <div className="w-1/2 hidden md:flex items-center backdrop-blur-md bg-white/10 font-sans justify-center bg-pink-400">
             <AnimatePresence mode="wait">
                 <motion.div
                     key={currentMessage}
@@ -25,7 +25,7 @@ export default function WelcomeMessages() {
                     transition={{ duration: 0.8 }}
                     className="text-center p-10"
                 >
-                    <h2 className="text-3xl font-bold text-white">
+                    <h2 className="text-3xl font-bold font-quicksand text-white">
                         {messages[currentMessage]}
                     </h2>
                 </motion.div>
