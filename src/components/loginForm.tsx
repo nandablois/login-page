@@ -19,7 +19,7 @@ export default function LoginForm() {
 
     return (
     <div className="md:w-1/2 font-sans flex flex-col justify-center">
-        <form onSubmit={handleSubmit} className="p-10 bg-pink-400 backdrop-blur-md bg-white/10 font-quicksand w-full space-y-8 text-white">
+        <form onSubmit={handleSubmit} className="p-10 backdrop-blur-xl bg-white/30 font-quicksand w-full space-y-8 ">
             <h1 className="text-2xl font-bold text-center">Página de Login</h1>
             <EmailForm email={email} setEmail={setEmail} />
             <PasswordForm password={password} setPassword={setPassword} />
