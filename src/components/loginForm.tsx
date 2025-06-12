@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { FormEvent, useState } from "react"
 import EmailForm from "./form/emailForm"
 import PasswordForm from "./form/passwordForm"
 
@@ -9,7 +9,7 @@ export default function LoginForm() {
     const [error, setError] = useState("")
 
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         if (!email || !password) {
             setError("Preencha todos os campos")
