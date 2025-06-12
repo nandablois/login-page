@@ -1,3 +1,30 @@
+## Página de Login, uma interface simples, moderna e responsiva feita com foco na experiência do usuário e boas práticas de desenvolvimento. O formulário realiza validação básica dos campos obrigatórios e conta com mensagens animadas de boas-vindas para deixar a interface mais interativa.
+
+Este projeto será base para funcionalidades futuras como autenticação com backend, redirecionamento e criação de conta.
+
+## Funcionalidades:
+
+- Validação básica de campos obrigatórios (e-mail e senha).
+
+- Exibição de mensagens de erro diretamente no formulário.
+
+- Animação de troca de mensagens de boas-vindas com Framer Motion.
+
+- Layout responsivo com design moderno usando TailwindCSS.
+
+## Tecnologias Utilizadas:
+
+- TypeScript
+
+- Vite
+
+- React
+
+- TailwindCSS
+
+- Framer Motion
+---------------------
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
